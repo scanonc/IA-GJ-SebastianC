@@ -50,8 +50,11 @@ con la secuencia de la imagen.
   Elemento          Respuesta
   ----------------- ----------------------------------------------------
   **Performance**   Que el video sea fluido, realista y coherente con la imagen que ingreso el usuario.
+
   **Environment**   Imagenes que el usuario le proporcione.
+
   **Actuators**     Construye un video basado en una imagen proporcionada por el usuario.
+
   **Sensors**       Imagen y promt proporcionado por el usuario, parametros de video
 
 ------------------------------------------------------------------------
@@ -63,10 +66,15 @@ Complete la siguiente tabla y justifique brevemente cada respuesta.
   Propiedad      Clasificación     Justificación
   -------------- ----------------- ---------------
   Observable     Parcial           El agente solo conoce la imagen y la información que el usuario ingresa.
+
   Determinista   No                No porque se puede ingresar la misma imagen y el agente genera videos diferentes.
+
   Episódico      Sí                Si porque cada video que se genera es independiente o no tiene que ver con los anteriores generados.
+
   Estático       Sí                Si porque la imagen de entrada no cambia despues de que el agente actue, no cambia el entorno.
+
   Discreto       No                Trabaja con imagenes y videos que son información continua.
+
   Conocido       Sí                El agente conoce como procesar las entradas y generar el video segun el modelo con el que fue entrenado.
 
 ------------------------------------------------------------------------
@@ -106,8 +114,6 @@ Encuentre un Space que pueda clasificarse como:
 
 1.  **Totalmente observable, determinista y episódico.**
 2.  **Parcialmente observable, estocástico y secuencial.**
-
-Justifique su respuesta.
 
 ------------------------------------------------------------------------
 
