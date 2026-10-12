@@ -1,0 +1,7 @@
+model,train_accuracy,val_accuracy,val_std,stage,best_params
+LogisticRegression,1.0,0.9790640394088669,0.027713464392187602,initial,
+KNN,0.9770998292190655,0.9507389162561577,0.035274169431002235,initial,
+DecisionTree,1.0,0.9022167487684729,0.05861654992213133,initial,
+LogisticRegression,1.0,0.9790640394088669,0.027713464392187602,tuned,{'model__C': 1}
+KNN,0.964772550846142,0.9578817733990148,0.040520048714638005,tuned,"{'model__n_neighbors': 7, 'model__weights': 'uniform'}"
+DecisionTree,0.9982456140350877,0.9022167487684729,0.05861654992213133,tuned,"{'model__max_depth': 4, 'model__min_samples_leaf': 1}"
